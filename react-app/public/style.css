@@ -1,0 +1,31 @@
+h1{
+  text-align: center;
+}
+
+.card {
+    border-radius: 25px;
+    position: relative;
+    padding: 25px 15px;
+    background-color: #81ecec;
+    margin: 50px 0;
+    box-shadow: 0 2px 5px #ccc;
+    text-align: center;
+  }
+
+  .container{
+    background-color:bisque;
+    margin: 50px auto;
+    max-width: 350px;
+    padding: 10px;
+    height: fit-content;
+    /* display: flex; */
+    justify-content: center;
+  }
+
+  .navigation{
+    display: flex;
+    justify-content: center;
+  }
+  .navigation a{
+    padding: 15px;
+  }
