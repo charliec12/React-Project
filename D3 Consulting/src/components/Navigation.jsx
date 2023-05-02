@@ -1,13 +1,13 @@
 import React from "react";
+import Logo from './Logo'
 
 function Navigation(){
     return(
         <div id="navbar">
             <div id="logo">
-                D3 Consulting
+                <Logo/>
             </div>
             <div id="linkslist">
-                <img src=""/>
                 <a href="#">Home</a>
                 <a href="#">Blog</a>
                 <a href="#">About Us</a>
@@ -22,4 +22,4 @@ function Navigation(){
 
 
 
-export default Navigation
+export default Navigation;

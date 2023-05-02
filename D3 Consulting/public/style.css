@@ -1,54 +1,180 @@
+/* body {
+  outline: red dotted;
+  margin: 0;
+  display: block;
+  left: 50px;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}*/
+#root{
+  outline: red dotted;
+  /* background-color: aqua; */
+  height: 500px;
+  padding-top: 1%;
+  align-items: center;
+} 
+
+.container {
+  outline: green dotted;
+  margin: 0 auto;
+  padding: 15px 0;
+  text-align: center;
+  display: block;
+  /* display: flex;
+  align-items: center; */
+}
+
 /* NAVIGATION */
 #navbar {
-    position: absolute;
+  outline: blue dotted;
+    /* position: absolute;
     left: 0px;
-    top: 0px;
+    top: 0px; */
+    display: flex;
+    align-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
     width: 1440px;
-    height: 80px;
+    height: 170px;
+    margin: 5px auto;
     /* background-color: #ffffff; */
   }
-  #linkslist {
-    position: absolute;
-    left: 844px;
-    top: 26px;
+
+#linkslist {
+    margin-left:40%;
+    margin-bottom: 65px;
     width: 305px;
     height: 29px;
     display: flex;
+    align-items: end;
     justify-content: space-between;
-  }
-  #button {
-    position: absolute;
-    left: 1181px;
-    top: 12px;
+}
+#button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin:5px 0 50px 15px;
     width: 178px;
     height: 56px;
     background: #ffffff;
     background-blend-mode: normal;
     color: black;
   }
-  #logo {
-    position: absolute;
-    left: 83px;
-    top: 25px;
-    width: 140px;
-    height: 28.35px;
-  }
+
+#logo {
+  outline: red dotted;
+    /* position: absolute; */
+    width: 190px;
+    height: 160px;
+}
   /* HERO SECTION */
-  #homeHero {
-    position: absolute;
-    left: 0px;
-    top: 80px;
+  .heroContainer{
+    /* background-color: yellow; */
+    outline: yellow dotted;
+    padding: 10px;
+    /* display: flex; */
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    width: 1440px;
+    margin:0 auto;
+  }
+#homeHero {
+  outline: red dotted;
+  display: flex;
+    /* position: absolute;
+    left: 2.5%;
+    top: 53%; */
     width: 1440px;
     height: 720px;
+    margin:0 auto;
     }
 
-    #heroImg{
-        position: absolute;
-        left: 0px;
-        top: 0px;
-        width: 1440px;
-        height: 720px;
-        transform: scaleX(-1);
-      }
+#heroImg{
+  outline: red dotted;
+  position: relative;
+  /* position: absolute;
+  left: 0px;
+  top: 0px; */
+  width: 1440px;
+  height: 720px;
+  margin:0 auto;
+  transform: scaleX(-1);
+}
       
-  
+img{
+    /* position: absolute; */
+    position: relative;
+    margin: 0;
+    width: 190px;
+    height:150px;
+    z-index: -1;
+}
+
+#heroinfo {
+  outline: purple dotted;
+  position: absolute;
+    display:flex;
+    justify-self: flex-start;
+    justify-content: flex-start;
+    width: 800px;
+    height: 400px;
+    /* z-index: 0; */
+    /* margin: 87px -35px 10px -1980px; */
+}
+h1{
+      /* position: absolute;
+      left: 1px;
+      top: 44px; */
+      width: 660px;
+      height: 128px;
+      color: #ffffff;
+      font-family: Sen;
+      font-size: 56px;
+      font-weight: 700;
+      line-height: 64px;
+      letter-spacing: -2px;
+      text-align: justify;
+}
+p{
+    position: absolute;
+    left: 0px;
+    top: 240px;
+    width: 500px;
+    height: 56px;
+    color: #ffffff;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px; 
+    text-align: justify; 
+}
+.author{
+      position: absolute;
+      left: 1px;
+      top: 196px;
+      width: 249px;
+      height: 28px;
+      color: #ffffff;
+      font-family: Inter;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 28px;
+}
+.preH{
+        position: absolute;
+        left: 1px;
+        top: 0px;
+        width: 220px;
+        height: 20px;
+        color: #ffffff;
+        font-family: Inter;
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 20px;
+        text-transform: uppercase;
+        letter-spacing: 3px;
+}
