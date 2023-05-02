@@ -178,3 +178,35 @@ p{
         text-transform: uppercase;
         letter-spacing: 3px;
 }
+/* Feature Post */
+.featurePost{
+  outline: indigo dotted;
+  /* background-color: red; */
+  margin:0 auto;
+  width: 1440px;
+  height: 804px;
+}
+
+.featureImg{
+  width: 669px;
+  height: 352px;
+}
+.postWrapper{
+  /* background-color: blue; */
+  padding: 10px;
+  width: 733px;
+  height: 724px;
+  border: 1px solid grey;
+  display: block;
+}
+.featuredPostDetails{
+  background-color: black;
+  position: inherit;
+  text-align: justify;
+}
+.featuredPostDetails p{
+  position: relative;
+  color: black;
+  width:500px;
+  
+}
