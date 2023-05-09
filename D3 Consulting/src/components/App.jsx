@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import Navigation from './Navigation'
 import Hero from './Hero'
 import FeaturePost from './FeaturePost'
+import AllPost from './AllPost'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -11,6 +12,7 @@ function App() {
       <Navigation/>
       <Hero/>
       <FeaturePost/>
+      <AllPost/>
     </div>
   );
 }

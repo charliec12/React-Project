@@ -183,9 +183,16 @@ p{
   outline: indigo dotted;
   /* background-color: red; */
   margin:0 auto;
+  padding: 0 10px 0 10px;
   width: 1440px;
   height: 804px;
+  display: flex;
+  justify-content: space-between;
 }
+
+/* .featurePost h3{
+  display:block;
+} */
 
 .featureImg{
   width: 669px;
@@ -200,13 +207,33 @@ p{
   display: block;
 }
 .featuredPostDetails{
-  background-color: black;
+  /* background-color: black; */
   position: inherit;
   text-align: justify;
 }
 .featuredPostDetails p{
-  position: relative;
+  position: inherit;
   color: black;
   width:500px;
   
+}
+
+button{
+  margin-top: 20px;
+  padding: 10px;
+  width: 204px;
+  height: 56px;
+  background-color: #ffd050;
+  background-blend-mode: normal;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 24px;
+}
+
+/* AllPost */
+.allPost{
+  width: 517px;
+  height: 744px;
+  background-color: #ffd050;
+  /* display: flex; */
 }
