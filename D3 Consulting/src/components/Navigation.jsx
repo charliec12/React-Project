@@ -3,7 +3,8 @@ import Logo from './Logo'
 
 function Navigation(){
     return(
-        <div id="navbar">
+        <div className="bg">
+            <div id="navbar">
             <div id="logo">
                 <Logo/>
             </div>
@@ -17,6 +18,8 @@ function Navigation(){
             <button id="button">Subscribe</button>
 
         </div>
+        </div>
+        
     );
 }
 

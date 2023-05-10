@@ -1,36 +1,24 @@
-/* body {
-  outline: red dotted;
+@import url('//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css');
+*{
   margin: 0;
-  display: block;
-  left: 50px;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
-}*/
+  padding: 0;
+}
 #root{
-  outline: red dotted;
-  /* background-color: aqua; */
-  height: 500px;
-  padding-top: 1%;
+  /* height: 500px; */
+  /* padding-top: 1%; */
   align-items: center;
+  display: block;
 } 
 
 .container {
-  outline: green dotted;
   margin: 0 auto;
-  padding: 15px 0;
+  /* padding: 15px 0; */
   text-align: center;
   display: block;
-  /* display: flex;
-  align-items: center; */
 }
 
 /* NAVIGATION */
 #navbar {
-  outline: blue dotted;
-    /* position: absolute;
-    left: 0px;
-    top: 0px; */
     display: flex;
     align-content: space-between;
     flex-wrap: wrap;
@@ -39,8 +27,8 @@
     align-items: flex-end;
     width: 1440px;
     height: 170px;
-    margin: 5px auto;
-    /* background-color: #ffffff; */
+    margin: 0 auto;
+    background-color: #2b2f54;
   }
 
 #linkslist {
@@ -65,15 +53,12 @@
   }
 
 #logo {
-  outline: red dotted;
-    /* position: absolute; */
     width: 190px;
     height: 160px;
+    z-index: 0;
 }
   /* HERO SECTION */
   .heroContainer{
-    /* background-color: yellow; */
-    outline: yellow dotted;
     padding: 10px;
     /* display: flex; */
     display: grid;
@@ -81,32 +66,25 @@
     align-items: center;
     width: 1440px;
     margin:0 auto;
+    
   }
 #homeHero {
-  outline: red dotted;
   display: flex;
-    /* position: absolute;
-    left: 2.5%;
-    top: 53%; */
     width: 1440px;
     height: 720px;
     margin:0 auto;
     }
 
 #heroImg{
-  outline: red dotted;
   position: relative;
-  /* position: absolute;
-  left: 0px;
-  top: 0px; */
   width: 1440px;
   height: 720px;
   margin:0 auto;
   transform: scaleX(-1);
+  z-index: 0;
 }
       
 img{
-    /* position: absolute; */
     position: relative;
     margin: 0;
     width: 190px;
@@ -115,20 +93,15 @@ img{
 }
 
 #heroinfo {
-  outline: purple dotted;
+  
   position: absolute;
     display:flex;
     justify-self: flex-start;
-    justify-content: flex-start;
+    justify-content: space-around;
     width: 800px;
     height: 400px;
-    /* z-index: 0; */
-    /* margin: 87px -35px 10px -1980px; */
 }
 h1{
-      /* position: absolute;
-      left: 1px;
-      top: 44px; */
       width: 660px;
       height: 128px;
       color: #ffffff;
@@ -139,7 +112,7 @@ h1{
       letter-spacing: -2px;
       text-align: justify;
 }
-p{
+.heroP{
     position: absolute;
     left: 0px;
     top: 240px;
@@ -150,7 +123,7 @@ p{
     font-size: 16px;
     font-weight: 400;
     line-height: 28px; 
-    text-align: justify; 
+    text-align: center; 
 }
 .author{
       position: absolute;
@@ -166,8 +139,8 @@ p{
 }
 .preH{
         position: absolute;
-        left: 1px;
-        top: 0px;
+        left: 15px;
+        top: -15px;
         width: 220px;
         height: 20px;
         color: #ffffff;
@@ -180,19 +153,14 @@ p{
 }
 /* Feature Post */
 .featurePost{
-  outline: indigo dotted;
   /* background-color: red; */
-  margin:0 auto;
+  margin:20px auto 0 auto;
   padding: 0 10px 0 10px;
   width: 1440px;
   height: 804px;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
 }
-
-/* .featurePost h3{
-  display:block;
-} */
 
 .featureImg{
   width: 669px;
@@ -234,6 +202,64 @@ button{
 .allPost{
   width: 517px;
   height: 744px;
-  background-color: #ffd050;
   /* display: flex; */
+}
+
+.allPostItems{
+  margin-top: 30px;
+  padding: 10px 20px;
+  text-align: left;
+}
+
+/* .allPostItems p{
+  font-size: 15px;
+} */
+
+/* Footer */
+.bg{
+  background: #2b2f54;
+}
+.footer{
+  margin: 0 auto;
+  outline: red;
+  padding: 70px;
+  width: 1440px;
+  height: 560px;
+  background: #2b2f54;
+  background-blend-mode: normal;
+}
+.footerButton{
+  margin: 0;
+}
+.footerContainer{
+  margin: 0 auto;
+  width: 1420px;
+  height: 445px;
+}
+.CTA{
+  margin: 0 auto;
+  width: 1280px;
+  height: 256px;
+}
+form{
+  display: flex;
+  justify-content: left;
+}
+form input{
+  width: 350px;
+  height: 56px;
+  margin: 0 35px 0 0;
+}
+.footerContact{
+  justify-content: left;
+  color: aliceblue;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.footerSocials{
+  color: aliceblue;
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 36px;
 }

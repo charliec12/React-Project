@@ -1,8 +1,14 @@
 import React from "react";
+import AllPostItems from "./AllPostItems";
 
 function AllPost(){
     return(
-        <div className="allPost"></div>
+        <div className="allPost">
+            <AllPostItems/>
+            <AllPostItems/>
+            <AllPostItems/>
+            <AllPostItems/>     
+        </div>
     );
 }
 

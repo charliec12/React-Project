@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import Navigation from './Navigation'
 import Hero from './Hero'
 import FeaturePost from './FeaturePost'
-import AllPost from './AllPost'
+import Footer from './Footer'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -12,7 +12,7 @@ function App() {
       <Navigation/>
       <Hero/>
       <FeaturePost/>
-      <AllPost/>
+      <Footer/>
     </div>
   );
 }
